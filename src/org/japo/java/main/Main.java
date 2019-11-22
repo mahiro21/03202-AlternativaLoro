@@ -35,14 +35,14 @@ public class Main {
         String nameInset;
 
 //        Constantes
-        final String Socrates = "Sócrates";
+        final String SOCRATES = "Sócrates";
 
         //Mensaje de inicio
         System.out.printf("Alternativa Loro%n====================%n");
         System.out.print("Persona que se acerca ..: ");
         nameInset = SCN.nextLine();
 
-        System.out.printf("Dueño del loro .........: %s%n", Socrates);
+        System.out.printf("Dueño del loro .........: %s%n", SOCRATES);
         System.out.println(nameInset);
 
         System.out.println("---");
